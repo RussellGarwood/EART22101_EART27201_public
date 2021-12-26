@@ -1,4 +1,5 @@
-# EART22101_EART27201_public
+# Public websites for EART22101 Evolution and Palaeontology and EART27201 Fossils 
+## Dr Russell Garwood - University of Manchester
 
 This respository hosts sites that cover two courses Russell Garwood teaches in the Department of Earth Sciences, University of Manchester.
 
