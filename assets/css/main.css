@@ -1818,6 +1818,7 @@ button.alt:hover,
   box-shadow: inset 0 0 0 1px #fff;
   color: #fff;
 }
+
 .dark input[type=button]:hover,
 .dark input[type=submit]:hover,
 .dark input[type=reset]:hover,
@@ -1841,6 +1842,10 @@ button.alt:hover,
   background: rgba(255, 255, 255, 0.15);
   box-shadow: inset 0 0 0 1px #fff;
 }
+.dark .button.darker{
+  background: rgba(0, 0, 0, 0.5);
+  }
+
 
 /* Feature Icon */
 .feature-icon {
