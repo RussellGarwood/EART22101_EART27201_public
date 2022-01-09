@@ -390,6 +390,11 @@ br.clear {
   width: 1020px;
   padding-top: 1em;
 }
+.container.small {
+  width: 620px;
+  padding-top: 1em;
+}
+
 @media screen and (max-width: 1680px) {
   .container {
     width: 1200px;
