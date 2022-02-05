@@ -348,24 +348,7 @@
    </section>
 
    <!-- Footer -->
-   <section id="footer">
-      <ul class="icons">
-         <li><a href="#header" class="fas fa-arrow-up"><span class="label"></span></a></li>
-         <li><a href="../EART27201.html" class="fas fa-home"></a></li>
-         <li>|</li>
-         <li><a href="https://www.russellgarwood.co.uk" class="fas fa-globe" target="_blank"></a></li>
-         <li><a href="https://twitter.com/RussellGarwood" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-         <li><a href="https://github.com/RussellGarwood" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-      </ul>
-      <div class="copyright">
-         <ul class="menu">
-            <li>&copy; Russell Garwood.</li>
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a>.</li>
-            <!-- Turns out this is not possible based on my contract: http://documents.manchester.ac.uk/DocuInfo.aspx?DocID=24420 -->
-            <!--<li>All content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>, except where noted.</li>-->
-         </ul>
-      </div>
-   </section>
+   <div id="footer"></div>
 
    <!-- Scripts -->
    <script src="../assets/js/jquery.min.js"></script>
@@ -374,6 +357,12 @@
    <script src="../assets/js/breakpoints.min.js"></script>
    <script src="../assets/js/util.js"></script>
    <script src="../assets/js/main.js"></script>
+   <script>
+      $(function()
+      {
+         $("#footer").load("../assets/footer27201.html");
+      });
+   </script>
 
 </body>
 
