@@ -1928,10 +1928,12 @@ button.alt:hover,
   position: relative;
   margin: 0;
   background-image: url("images/overlay.png"), url("../../index_images/header.jpg");
-  background-size: auto, cover;
-  background-position: top left, center center;
+  background-size: 100%, 100%;
+  background-attachment: fixed;
+  background-position: center;
+  /*background-position: top left, center center;
   background-repeat: repeat, no-repeat;
-  padding: 14em 0 14em 0;
+  padding: 14em 0 14em 0;*/
   text-align: center;
   color: #fff;
 }
