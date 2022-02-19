@@ -3967,7 +3967,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #f5f5f5;
+		background-color: #313625;
 		color: #909498;
 		cursor: default;
 		position: relative;
@@ -3975,6 +3975,7 @@ input, select, textarea {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+		text-align: center;
 	}
 
 		#footer input, #footer select, #footer textarea {
